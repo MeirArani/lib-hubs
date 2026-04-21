@@ -1,7 +1,7 @@
 {
-  "name": "@meir_arani/three-particle-emitter",
+  "name": "@hubs/three-particle-emitter",
   "license": "MPL-2.0",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "",
   "repository": {
     "type": "git",
@@ -17,15 +17,15 @@
     "lib"
   ],
   "dependencies": {
-    "@mozillareality/easing-functions": "^0.1.1"
+    "@hubs/easing-functions": "^0.1.1"
   },
   "peerDependencies": {
     "three": "*"
   },
   "devDependencies": {
     "@types/webgl2": "0.0.6",
-    "@types/three": "0.147.0",
-    "three": "npm:@meir_arani/three@latest"
+    "@types/three": "0.183.0",
+    "three": "0.183.0"
   },
   "publishConfig": {
     "access": "public"
